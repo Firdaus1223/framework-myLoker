@@ -1,5 +1,6 @@
 <nav class="flex flex-row p-8 justify-between items-center">
-    <img src="{{asset('assets/images/myLoker.png')}}" alt="" class="w-fit h-12">
+    <img src="{{ asset('assets/images/myLoker.png') }}" alt="" class="w-fit h-8">
+    <p class=""style="margin-left: -300px;">| Selamat datang {{ $namaPelamar }}</p>
     <div class="flex flex-row gap-8 items-center">
         <ul class="flex flex-row gap-8">
             <li>Tentang</li>

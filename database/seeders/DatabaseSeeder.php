@@ -4,6 +4,8 @@ namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use App\Models\Pelamar;
+use App\Models\Pekerjaan;
 
 class DatabaseSeeder extends Seeder
 {
@@ -12,6 +14,8 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
+        Pelamar::factory(10)->create();
+        Pekerjaan::factory(10)->create();
         // \App\Models\User::factory(10)->create();
 
         // \App\Models\User::factory()->create([

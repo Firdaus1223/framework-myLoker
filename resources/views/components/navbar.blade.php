@@ -9,6 +9,8 @@
             <li>Berita</li>
             <li>Pengaturan</li>
         </ul>
-        <button class="bg-blue-700 text-white px-8 py-4 rounded-lg font-bold">Login</button>
+        {{-- <a href="{{ route('auth.page') }}"> --}}
+            <button class="bg-blue-700 text-white px-8 py-4 rounded-lg font-bold">Login</button>
+        {{-- </a> --}}
     </div>
 </nav>

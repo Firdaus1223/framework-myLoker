@@ -11,7 +11,7 @@ class Pekerjaan extends Model
 {
     use HasFactory;
     protected $table = 'pekerjaans';
-    protected $fillable = ['posisi', 'deskripsi', 'lokasi', 'gaji', 'tanggal_posting'];
+    protected $fillable = ['pekerjaan_id','posisi', 'deskripsi', 'lokasi', 'gaji', 'tanggal_posting'];
 
     public function pelamar()
     {

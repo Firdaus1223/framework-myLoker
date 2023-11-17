@@ -10,4 +10,5 @@
     @include('components.berita')
     @include('components.footer')
 
+
     @endsection

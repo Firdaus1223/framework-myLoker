@@ -20,6 +20,7 @@ return new class extends Migration
             $table->decimal('gaji', 10, 2);
             $table->date('tanggal_posting');
             $table->string('email_id')->constrained();
+            $table->string('gambar');
             $table->timestamps();
 
         });

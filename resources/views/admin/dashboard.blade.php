@@ -18,10 +18,8 @@ Dashboard - Admin
             </div>
         </div>
         <div class="h-full mx-4 p-8 bg-white rounded-lg drop-shadow-md">
-            <p class="text-xl font-bold">Pesan Terbaru</p>
-        </div>
-        <div class="h-full mx-4 p-8 bg-white rounded-lg drop-shadow-md">
-            <p class="text-xl font-bold">Aktivitas Terbaru</p>
+            <p class="text-xl font-bold">Aktifitas Terbaru</p>
+            <p>{{ strtok(Auth::user()->name, ' ') }} logged in</p>
         </div>
     </div>
 </div>

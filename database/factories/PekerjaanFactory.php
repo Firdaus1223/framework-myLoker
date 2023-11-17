@@ -23,6 +23,7 @@ class PekerjaanFactory extends Factory
             'gaji' => $this->faker->numberBetween(3000, 10000),
             'tanggal_posting' => $this->faker->date(),
             'email_id' => Pelamar::all()->random()->id,
+            'gambar' => $this->faker->imageUrl(),
         ];
     }
 }
